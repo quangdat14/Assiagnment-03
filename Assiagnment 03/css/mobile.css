@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .avt-banner {
+    display: none;
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  .cer-content-2 {
+    border-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+  #footer a:link {
+    margin-right: 12px;
+  }
+  .img-banner {
+    position: relative;
+    background-image: url(/images/banner.jpg);
+    width: 100%;
+    height: 600px;
+    filter: brightness(40%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+}

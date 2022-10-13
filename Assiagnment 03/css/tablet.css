@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  .avt-banner {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project-border {
+    font-size: 10px;
+    padding: 10px 4px !important;
+  }
+  .project-border span {
+    margin-right: 5px !important;
+  }
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  .img-banner {
+    position: relative;
+    background-image: url(/images/banner.jpg);
+    width: 100%;
+    height: 600px;
+    filter: brightness(40%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+}
